@@ -9,3 +9,4 @@ String.prototype.camelCase = function () {
     .join('');
   return result;
 };
+
