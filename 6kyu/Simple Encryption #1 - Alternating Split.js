@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/57814d79a56c88e3e0000786
+
 function encrypt(str, n) {
   if (typeof str !== 'string' || str.length === 0 || n < 0) {
     return str;
