@@ -10,5 +10,3 @@ function wave(str) {
   }
   return finalResult.filter((el) => /[A-Z]/.test(el));
 }
-
-console.log(wave(' gap '));
