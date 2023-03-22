@@ -46,13 +46,3 @@ function solution(num) {
   }
   return res;
 }
-// console.log(solution(21));
-// console.log(solution(22));
-// console.log(solution(23));
-// console.log(solution(24));
-// console.log(solution(25));
-// console.log(solution(26));
-// console.log(solution(27));
-// console.log(solution(28));
-// console.log(solution(29));
-console.log(solution(2008));
