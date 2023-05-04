@@ -24,3 +24,16 @@ function abbreviate(str) {
   }
   return res;
 }
+
+
+// second solution 
+
+const find = /[a-z]{4,}/gi;
+
+function rep(match) {
+  return match[0] + (match.length - 2) + match[match.length - 1];
+}
+
+function abbreviate(str) {
+  return str.replace(find, rep);
+}
